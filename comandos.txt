@@ -1,0 +1,9 @@
+Comandos:
+
+- Habilitar, iniciar ou reiniciar um serviço:
+sudo systemctl restart nomeservico
+sudo systemctl start nomeservico
+sudo systemctl status nomeservico
+
+- Criação do link simbólico par habilitar o site no nginx:
+sudo ln -s /etc/nginx/sites-available/seuarquivo /etc/nginx/sites-enabled/
