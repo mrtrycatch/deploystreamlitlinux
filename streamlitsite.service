@@ -1,0 +1,12 @@
+[Unit]
+Description=Streamlit site
+
+[Service]
+ExecStart=/home/ubuntu/streamlitsite.sh
+WorkingDirectory=/home/ubuntu
+Restart=always
+User=ubuntu
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
